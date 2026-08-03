@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href='styles.css'>
-    <script src = 'script.js' defer></script>
+    <script src='script.js' defer></script>
 </head>
+
 <body>
-    
+    <div class="calculator">
+        <h1>Qialculator</h1>
+        <!-- Input & Output of Calculator -->
+        <div id="display-box">0</div>
+
+        <!-- Calculators Button Layout -->
+        <div class="button-box">
+            <div class="row">
+                <button class="clear">CE</button>
+                <button class="backspace">⌫</button>
+                <button class="arOperator">+</button>
+            </div>
+
+            <div class="row">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="arOperator">-</button>
+            </div>
+
+            <div class="row">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="arOperator">x</button>
+            </div>
+
+            <div class="row">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="arOperator">÷</button>
+            </div>
+
+            <div class="row">
+                <button class="zero">0</button>
+                <button class="finalOperator">=</button>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
